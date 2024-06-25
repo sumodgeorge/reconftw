@@ -43,3 +43,4 @@ ujson                   # theHarvester
 urllib3                 # multiple
 uvicorn                 # theHarvester
 uvloop;platform_system != "Windows" # theHarvester
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
